@@ -3,7 +3,8 @@ import pickle
 import numpy as np
 
 # মডেল লোড করো
-loaded_model = pickle.load(open('/home/catpc/linear_regression_model.pkl', 'rb'))
+loaded_model = pickle.load(open('linear_regression_model.pkl', 'rb'))
+
 
 # ওয়েব অ্যাপের UI
 st.title("Scikit-learn Linear Regression Model")
